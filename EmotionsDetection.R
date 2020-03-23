@@ -12,7 +12,7 @@ library(plyr)
 library(tm)
 library(SnowballC)
 library(tm)
-library(syuzhet)#Emotions related to 8 expressions jere https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm
+library(syuzhet)#Emotions related to 8 expressions here https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm
 library(SnowballC)
 library(wordcloud)
 library(RColorBrewer)
@@ -32,8 +32,8 @@ rm(list=ls())
 ##garbage collection - manual trigger
 gc()
 
-setwd("C:\\Users\\wanda\\OneDrive - AUT University\\Personal\\Data Science\\Kaggle\\Corona\\NZTweets")
-#setwd("Folder location with the tweets file")
+setwd("Path to the folder with Tweets.csv file")
+
 ##Set up filename 
 datafile <- "Tweets_copy.csv" #Removed usernames for privacy purposes
 
